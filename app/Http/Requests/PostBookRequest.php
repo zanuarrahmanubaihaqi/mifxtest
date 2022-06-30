@@ -28,7 +28,7 @@ class PostBookRequest extends FormRequest
             'isbn'          =>  'required',
             'title'         =>  'required',
             'description'   =>  'required',
-            'author'        =>  'required',
+            'authors'        =>  'required',
             'published_year'=>  'required',
         ];
 
@@ -42,7 +42,7 @@ class PostBookRequest extends FormRequest
             'isbn.required'          =>  'isbn required',
             'title.required'         =>  'tittle required',
             'description.required'   =>  'description required',
-            'author.required'        =>  'author required',
+            'authors.required'        =>  'authors required',
             'published_year.required'=>  'publis year required',
         ];
 

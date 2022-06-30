@@ -28,11 +28,11 @@ class CreateBooksTable extends Migration
         });
 
         Schema::create('book_author', function (Blueprint $table) {
+            // @TODO implement
             $table->increments('id');
+
             $table->unsignedbigInteger('book_id');
             $table->unsignedbigInteger('author_id');
-
-            // @TODO implement
         });
 
         Schema::create('book_reviews', function (Blueprint $table) {
